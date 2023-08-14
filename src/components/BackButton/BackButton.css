@@ -1,0 +1,22 @@
+/* BackButton.css */
+.back-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 18px; /* Increase the font size */
+    padding: 10px 20px; /* Increase the padding */
+    position: absolute;
+    top: 20px; /* Adjust the vertical position */
+    left: 20px; /* Adjust the horizontal position */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .back-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  

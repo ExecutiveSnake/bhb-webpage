@@ -1,0 +1,44 @@
+/* Burger.css */
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+  }
+  
+  .bun {
+    width: 150px;
+    height: 20px;
+    background-color: #f4d59a;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .patty,
+  .lettuce,
+  .cheese,
+  .tomato {
+    width: 120px;
+    height: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .patty {
+    background-color: #8b572a;
+  }
+  
+  .lettuce {
+    background-color: #44c767;
+  }
+  
+  .cheese {
+    background-color: #f3d063;
+  }
+  
+  .tomato {
+    background-color: #ff6347;
+  }
+
+ 

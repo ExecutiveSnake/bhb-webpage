@@ -1,0 +1,62 @@
+/* Carousel.css (Optional) */
+.backgroundAdoption{
+  background-image: url('./AdoptionBackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed;
+  transform: translateZ(0); */
+  height: 100vh;
+  width: 100vw;
+}
+
+.titleAdoption{
+  margin-top: 0;
+  padding-top: 5%;
+}
+
+.carousel-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .carousel-item {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+.collection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+  .bigHead{
+    height: 50px;
+    width: 50px;
+  }
+
+  /* styles.css */
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between grid items */
+    justify-content: center; /* Center items horizontally */
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  
+  .grid-item {
+    flex: 0 0 calc(33.33% - 40px); /* Adjust the width of each grid item (e.g., 3 items per row) */
+    max-width: 150px; /* Set a maximum width for each grid item (optional) */
+    text-align: center;
+  }
+  
+  .buttonB{
+    border: none;
+    cursor: pointer;
+  }

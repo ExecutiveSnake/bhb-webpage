@@ -1,0 +1,28 @@
+
+{
+    "collection": {
+      "pdaAddress": "6xws1dAQ9XT7pQE7sQ5EsMxZHR5BsYwhSyBwmK6FvB7f",
+      "auctionHouse": "E8cU1WiRWjanGxmn96ewBgk9vPTcL6AEZ1t6F6fkgUWe",
+      "tokenAddress": "9FJGQbVASDTFtjohkyXKU4LsHxkbR2tDhPnyHAPzP5Ld",
+      "tokenMint": "5uK8haquT4QYEvFFyLA7jzBpKd3yjdiBejWpXBdob2KC",
+      "seller": "7aLXJFAe4Mvkp8KGeeeXq87L5xqR6EMD1b517xpF59zr",
+      "sellerReferral": "autMW8SgBkVYeBgqYiTuJZnkvDZMVU2MHJh9Jh7CSQ2",
+      "tokenSize": 1,
+      "price": 0.2,
+      "rarity": {
+        "howrare": {
+          "rank": 5947
+        },
+        "moonrank": {
+          "rank": 5828,
+          "absolute_rarity": 5828,
+          "crawl": {}
+        }
+      },
+      "extra": {
+        "img": "https://nftstorage.link/ipfs/QmXD5HMkyeBXpW94qY2Qo5B7NcSGgYYUaQqTNdSyQZRzHm/2097.png"
+      },
+      "expiry": -1
+    }
+  }
+  

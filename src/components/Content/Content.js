@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import ReactPlayer from 'react-player';
-import Background from './SHILLING_GRILLIN_STUDIO.png';
 import BackButton from '../BackButton/BackButton';
 import './Content.css';
 

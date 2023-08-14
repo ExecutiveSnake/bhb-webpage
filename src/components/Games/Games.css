@@ -1,0 +1,19 @@
+.gamesBackground{
+    background-image: url('../BuildingPage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 0;
+}
+
+.headerGames{
+    margin-top: 0;
+    padding-top: 5%;
+}
+
+.construction{
+    padding-top: 15%;
+    font-size: 35px;
+}

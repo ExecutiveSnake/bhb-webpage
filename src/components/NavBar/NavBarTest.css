@@ -1,0 +1,29 @@
+/* NavBarTest.css */
+.nav-bar {
+    position: absolute;
+    top: 15%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 100;
+  }
+  
+  .nav-bar-title {
+    font-size: 24px;
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+  
+  .nav-bar-logo {
+    width: 200px; /* Adjust the logo size */
+    height: 200px; /* Adjust the logo size */
+    border-radius: 100%;
+    border-style: hidden;
+  }
+  

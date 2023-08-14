@@ -37,7 +37,7 @@ const Collection = () => {
             <div key={item.tokenMint} className="grid-item">
               {item.extra && item.extra.img ? (
                 <a href={`https://magiceden.io/item-details/${item.tokenMint}`} target="_blank" rel="noopener noreferrer">
-                  <button className='buttonB'><img src={item.extra.img} alt="" /></button>
+                  <button className='buttonB'><img src={item.extra.img} alt="" className='characters'/></button>
                 </a>
               ) : (
                 <p>No image available for this item.</p>

@@ -9,7 +9,7 @@ app.use(cors(
 ));
 
 // Allow requests from the specified domain
-const allowedOrigins = ['http://localhost:3004']; // Add other allowed domains as needed
+const allowedOrigins = ['http://localhost:3001', 'http://localhost:3000']; // Add other allowed domains as needed
 
 app.use(
   cors({
@@ -23,7 +23,7 @@ app.use(
 
 // Your API routes and other middleware go here...
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
